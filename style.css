@@ -1,23 +1,35 @@
 body{
     width: 100vw ;
-    height: 100vh;
-    display: flex  ;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; /* Empilhar elemento filho de body */
+    align-items: center; /* alinhamento vertical */
+    justify-content: center; /* alinhamento horizontal */
 }
+
 main{
     margin: auto;
-
+    
+    display: flex;
+    flex-direction: column; /* Empilhar elemento filho de body */
+    align-items: center; /* alinhamento vertical */
+    
 }
+
 /*estilo dos botões de ligar e desligar SOMENTE*/
 .interruptor {
     width: 80px;
    
-   
 }
 
-/* Pra editar estilos de tag usa-se APENAS o nome da tag e isso se aplicará a todas as tags no documento*/
-/* Pra editar estilos de classe usa-se o PONTO (.) ANTES do nome da classe e o estilo será aplicado para todas as classes*/
-/*Pra editar estilos de ID usa-se # antes do nome da ID e o estilo se aplicará apenas a aquele item*/
+/* 
+ - Pra editar estilos de tag usa-se APENAS o nome da tag e
+  isso se aplicará a todas as tags no documento.
+
+ - Pra editar estilos de classe usa-se o PONTO (.) ANTES do
+  nome da classe e o estilo será aplicado para todas as classes.
+
+ - Pra editar estilos de ID usa-se # antes do nome da ID e 
+  o estilo se aplicará apenas a aquele item.
+*/
 
